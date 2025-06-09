@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - Dogtor Wellness</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Dogtor Wellness</h1>
+    <p>AI FOR PET HEALTHCARE</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="#grooming">Grooming</a>
+        <a href="#swimming">Swimming</a>
+        <a href="#trade-meal">Trade Meal</a>
+        <a href="#nutrition-food">Nutrition Food</a>
+      </div>
+    </div>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="main" id="services">
+    <h2>Our Services</h2>
+
+    <h3 id="grooming">Grooming</h3>
+    <p>Professional grooming services to keep your dog looking and feeling great. Includes bathing, trimming, and styling.</p>
+
+    <h3 id="swimming">Swimming</h3>
+    <p>Safe and enjoyable swimming sessions supervised by our trained staff. Perfect for exercise and fun.</p>
+
+    <h3 id="trade-meal">Trade Meal</h3>
+    <p>Healthy, balanced meals tailored to your dog's dietary needs, delivered fresh or prepared on-site.</p>
+
+    <h3 id="nutrition-food">Nutrition Food</h3>
+    <p>Premium nutritional food options to support your pet’s health, energy, and happiness.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Dogtor Wellness. All rights reserved.
+  </footer>
+</body>
+</html>

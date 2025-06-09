@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - Dogtor Wellness</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Dogtor Wellness</h1>
+    <p>AI FOR PET HEALTHCARE</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="services.html#grooming">Grooming</a>
+        <a href="services.html#swimming">Swimming</a>
+        <a href="services.html#trade-meal">Trade Meal</a>
+        <a href="services.html#nutrition-food">Nutrition Food</a>
+      </div>
+    </div>
+    <a href="gallery.html" style="background-color:#ff6f61; color:white;">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="main">
+    <h2>Gallery</h2>
+    <p>See happy dogs enjoying our services!</p>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center;">
+      <img src="https://images.unsplash.com/photo-1604073796444-2b3b3b7f5b7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dog at grooming" width="300" style="margin:10px; border-radius:8px;">
+      <img src="https://images.unsplash.com/photo-1558788353-410b7b9d6f56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dog swimming" width="300" style="margin:10px; border-radius:8px;">
+      <img src="https://images.unsplash.com/photo-1604073796444-2b3b3b7f5b7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Happy Dog" width="300" style="margin:10px; border-radius:8px;">
+      <img src="https://images.unsplash.com/photo-1558788353-410b7b9d6f56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dog Eating" width="300" style="margin:10px; border-radius:8px;">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Dogtor Wellness. All rights reserved.
+  </footer>
+</body>
+</html>

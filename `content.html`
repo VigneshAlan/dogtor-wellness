@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Dogtor Wellness</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Dogtor Wellness</h1>
+    <p>AI FOR PET HEALTHCARE</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="services.html#grooming">Grooming</a>
+        <a href="services.html#swimming">Swimming</a>
+        <a href="services.html#trade-meal">Trade Meal</a>
+        <a href="services.html#nutrition-food">Nutrition Food</a>
+      </div>
+    </div>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html" style="background-color:#ff6f61; color:white;">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="main" id="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Reach out via:</p>
+    <ul>
+      <li><strong>Email:</strong> info@dogtorwellness.com</li>
+      <li><strong>Phone:</strong> +123 456 7890</li>
+      <li><strong>Address:</strong> 123 Pet Street, Woof City</li>
+    </ul>
+    <p>Or send us a message below:</p>
+    <form style="max-width:500px; margin:auto;">
+      <label>Name:</label><br>
+      <input type="text" name="name" style="width:100%; padding:8px; margin-bottom:10px;"><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" style="width:100%; padding:8px; margin-bottom:10px;"><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="5" style="width:100%; padding:8px; margin-bottom:10px;"></textarea><br>
+      <button type="submit" style="padding:10px 20px; background-color:#ff6f61; color:white; border:none; border-radius:5px;">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Dogtor Wellness. All rights reserved.
+  </footer>
+</body>
+</html>
